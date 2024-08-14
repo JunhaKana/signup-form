@@ -26,7 +26,8 @@ body img {
 #container #section1 {
   color: white;
   background-color: transparent;
-  width: 95%;
+  width: 90%;
+  align-items: center;
   align-content: center;
   text-align: center;
 }
@@ -37,6 +38,7 @@ body img {
   font-style: normal;
 }
 #container #section2 {
+  align-items: center;
   text-align: center;
   align-items: center;
   padding: 2px;
@@ -64,7 +66,7 @@ body img {
   border-radius: 10px;
   background-color: white;
   text-align: right;
-  box-shadow: rgba(0, 0, 0, 0.267) 0px 8px;
+  box-shadow: rgba(15, 15, 15, 0.267) 0px 8px;
 }
 #container #section2 #form form span {
   background-color: inherit;
@@ -95,11 +97,11 @@ body img {
   border-style: solid;
 }
 #container #section2 #form form button {
-  background-color: rgb(97, 222, 145);
+  background-color: rgb(89, 204, 133);
   border: none;
   width: 100%;
   padding-block: 15px;
-  box-shadow: hsl(154, 59%, 51%);
+  box-shadow: hsl(154, 57%, 47%) 0px 3px;
   border-radius: 5px;
 }
 #container #section2 #form form p {
@@ -109,11 +111,28 @@ body img {
 #container #section2 #form form p a {
   background-color: rgba(255, 255, 255, 0);
   text-decoration: none;
-  color: hsl(0, 100%, 74%);
+  color: hsl(0, 93%, 64%);
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 button {
   color: white;
+}
+
+.bottom {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.bottom p {
+  margin-left: 55px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: rgba(128, 128, 128, 0.73);
 }
 
 @media screen and (min-width: 700px) {
