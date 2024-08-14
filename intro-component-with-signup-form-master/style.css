@@ -50,7 +50,7 @@ body img {
   margin-bottom: 20px;
   padding-block: 20px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 187, 0.192) 0px 10px;
+  box-shadow: rgba(0, 0, 187, 0.192) 0px 8px;
 }
 #container #section2 #trial #jir {
   color: rgb(204, 204, 204);
@@ -64,6 +64,7 @@ body img {
   border-radius: 10px;
   background-color: white;
   text-align: right;
+  box-shadow: rgba(0, 0, 0, 0.267) 0px 8px;
 }
 #container #section2 #form form span {
   background-color: inherit;
@@ -89,7 +90,7 @@ body img {
   background-color: white;
   padding-left: 20px;
   height: 60px;
-  border-radius: 8px;
+  border-radius: 5px;
   border-color: rgb(179, 179, 179);
   border-style: solid;
 }
@@ -99,7 +100,7 @@ body img {
   width: 100%;
   padding-block: 15px;
   box-shadow: hsl(154, 59%, 51%);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 #container #section2 #form form p {
   background-color: white;
