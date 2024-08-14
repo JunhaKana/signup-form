@@ -54,7 +54,7 @@ body img {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 187, 0.192) 0px 8px;
 }
-#container #section2 #trial #jir {
+#container #section2 #trial #free {
   color: rgb(204, 204, 204);
   background-color: rgba(0, 0, 255, 0);
 }
@@ -93,7 +93,7 @@ body img {
   padding-left: 20px;
   height: 60px;
   border-radius: 5px;
-  border-color: rgb(179, 179, 179);
+  border-color: rgb(211, 211, 211);
   border-style: solid;
 }
 #container #section2 #form form button {
@@ -145,7 +145,7 @@ button {
     text-align: justify;
   }
   #section2 {
-    width: 80%;
+    width: 85%;
   }
   body {
     padding-inline: 1em;
@@ -157,7 +157,7 @@ button {
   }
   #section1 {
     padding-inline: 50px;
-    width: 80%;
+    width: 85%;
     text-align: left;
   }
   #section2 {

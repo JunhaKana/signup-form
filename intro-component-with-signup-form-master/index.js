@@ -68,7 +68,7 @@ function validation() {
   }
 
   if (password.value.trim() === "") {
-    passwordAlert.innerHTML = "password must be fill!";
+    passwordAlert.innerHTML = "password cannot be empty";
     imgPasswordAlert.classList.remove("hidden");
   } else if (password.value.length < 6) {
     passwordAlert.innerHTML = "Password to short!";
